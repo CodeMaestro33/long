@@ -1,4 +1,3 @@
-import os
 import random
 import time
 from datetime import datetime
@@ -63,3 +62,10 @@ def commit_and_push():
     except Exception as e:
         print(f"Error occurred: {e}")
 
+import os 
+REPO_PATH = "C:\\Users\\Marsh\\Downloads\\github\\long"
+
+if os.path.exists(REPO_PATH):
+    print("path is valid!")
+else:
+    print("Path is invalid. Please check it.")
