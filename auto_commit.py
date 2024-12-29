@@ -5,7 +5,8 @@ from git import Repo
 import schedule
 
 # Path to your local repository
-REPO_PATH = "C:\\Users\\Marsh\\Downloads\\github\\long"
+# Path to your local repository
+REPO_PATH = r"C:\\Users\\Marsh\\Downloads\]github\\long"
 REPO = Repo(REPO_PATH)
 
 def make_changes():
